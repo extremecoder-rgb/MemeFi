@@ -10,10 +10,10 @@ module meme_coin::meme_coin {
     fun init(witness: MEME_COIN, ctx: &mut TxContext) {
         let (treasury, metadata) = coin::create_currency(
             witness,
-            9, // decimals
-            b"MEME", // symbol
-            b"Meme Coin", // name
-            b"A fun meme coin on Sui Network", // description
+            9, 
+            b"MEME", 
+            b"Meme Coin", 
+            b"A fun meme coin on Sui Network", 
             option::some(url::new_unsafe_from_bytes(b"https://example.com/icon.png")), // icon url
             ctx
         );
