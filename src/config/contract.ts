@@ -1,0 +1,5 @@
+export const CONFIG = {
+    PACKAGE_ID: "0x4dd86299504f663f46d28c3f24227aed771e43d2a2bd52361544ea58990ff16e",
+    MODULE_NAME: "meme_coin",
+    TREASURY_CAP_ID: "0x7f6ad043f9327c21e60f694c228ca22e811beae600bbcf987eef820abe75433e",
+};
