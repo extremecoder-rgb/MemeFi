@@ -14,7 +14,7 @@ module meme_coin::meme_coin {
             b"MEME", 
             b"Meme Coin", 
             b"A fun meme coin on Sui Network", 
-            option::some(url::new_unsafe_from_bytes(b"https://example.com/icon.png")), // icon url
+            option::some(url::new_unsafe_from_bytes(b"https://example.com/icon.png")), 
             ctx
         );
 
